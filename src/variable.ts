@@ -10,7 +10,7 @@ function doSomethingLet() {
   for (let i = 0; i < 5; i++) {
     console.log(i);
   }
-  console.log('Let Finally: ' + i);
+  // console.log('Let Finally: ' + i);
 }
 
 let count = 5;
@@ -24,7 +24,20 @@ let a: number;
 let b: boolean;
 let c: string;
 let d: any;
-let e: number[] | Array<number> = [1, 2, 3, 4]; //, '2'
+let e: number[] | number; //, '2'
 let f: any[] = [1, true, 'a', false];
+let g: string | number;
 
-let backgroundColor = Color.Blue;
+let file: File | number;
+
+g = 10;
+
+if (file instanceof File) {
+  // file.
+}
+
+// e.
+if (e instanceof Array) {
+  // file.
+  e
+}

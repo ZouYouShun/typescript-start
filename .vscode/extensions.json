@@ -1,0 +1,26 @@
+{
+  "recommendations": [
+    // ts tool
+    "stringham.move-ts",
+    "rbbit.typescript-hero",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "christian-kohler.path-intellisense",
+    "ms-vscode.typescript-javascript-grammar",
+    "EditorConfig.EditorConfig",
+    "MariusAlchimavicius.json-to-ts",
+    "quicktype.quicktype",
+
+    // HTML tool
+    "formulahendry.auto-rename-tag",
+
+    "yatki.vscode-surround",
+
+    // themes and better look
+    "johnpapa.vscode-peacock",
+    "CoenraadS.bracket-pair-colorizer",
+    "PKief.material-icon-theme",
+
+    // git tool
+    "eamodio.gitlens"
+  ]
+}

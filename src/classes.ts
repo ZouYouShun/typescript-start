@@ -1,19 +1,47 @@
 interface Point {
-    x: number;
-    y: number;
+  x: number;
+  y: number;
 }
 
-let drawPoint = (point: Point) => {
-    // ...
+export let drawPoint = (point: Point) => {
+  // ...
+  return 0;
 }
 
-let getDistance = (pointA: Point, pointB: Point) => {
-    // ...
+export let getDistance = (pointA: Point, pointB: Point) => {
+  // ...
 }
 
 drawPoint({
-    x: 1,
-    y: 2
+  x: 1,
+  y: 2
 });
 
 // Seems there are highly related, so we can use Class to group.
+
+
+class PointModel {
+
+  public get x() {
+    return this._x;
+  }
+  public set x(value) {
+    this._x = value;
+  }
+  private _x: number;
+
+
+  y: number;
+
+  constructor(parameters) {
+
+  }
+
+  draw() {
+
+  }
+
+  distance() {
+
+  }
+}
