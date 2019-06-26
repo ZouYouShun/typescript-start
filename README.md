@@ -67,6 +67,7 @@ In the extension search box typing: `@recommended` and that will show add recomm
 ## VS CODE keyboard for
 
 There is some keyboard setting for quick typing
+
 |Name|Feature|
 |---|---|
 |`workbench.action.files.saveAll`|save all file once|
