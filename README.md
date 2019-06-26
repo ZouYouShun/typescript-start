@@ -2,6 +2,8 @@
 
 [Document is here](https://docs.google.com/presentation/d/1bp23x6g_Q8hSs9rAiKCpGRw1BnMnHFvkSjlx9KahufY)
 
+[TypeScript Tutorial for Angular and React Developers | Mosh](https://www.youtube.com/watch?v=NjN00cM18Z4&list=PLTjRvDozrdlxJjrQ4phZAUmiRn-HbK3M_)
+
 ## Agenda
 
 * Type annotations
@@ -17,6 +19,9 @@
 ## Coding tool
 
 You can add the extensions, that will make your vscode more useful and work more effective.
+
+In the extension search box typing: `@recommended` and that will show add recommended extension.
+
 ```json
 {
   "recommendations": [
@@ -28,7 +33,6 @@ You can add the extensions, that will make your vscode more useful and work more
     "ms-vscode.typescript-javascript-grammar",
     "EditorConfig.EditorConfig",
     "MariusAlchimavicius.json-to-ts",
-    "quicktype.quicktype",
 
     // HTML tool
     "formulahendry.auto-rename-tag",
@@ -45,9 +49,36 @@ You can add the extensions, that will make your vscode more useful and work more
   ]
 }
 ```
+|Name|Feature|
+|---|---|
+|`stringham.move-ts`| you can move ts and change the import once.|
+|`rbbit.typescript-hero`| Sort and organize your imports (sort and remove unused).|
+|`ms-vscode.vscode-typescript-tslint-plugin`|lint for typescript.|
+|`christian-kohler.path-intellisense`|smart auto path intellisense for ts.|
+|`EditorConfig.EditorConfig`|some coding style check when save file.|
+|`MariusAlchimavicius.json-to-ts`|convert json to ts interface.|
+|`formulahendry.auto-rename-tag`|auto rename tag with HTML.|
+|`yatki.vscode-surround`|![](https://raw.githubusercontent.com/yatki/vscode-surround/master/images/demo.gif)A simple yet powerful extension to add wrapper templates around your code blocks.|
+|`johnpapa.vscode-peacock`|![](https://raw.githubusercontent.com/johnpapa/vscode-peacock/master/resources/peacock-windows.png) Can custom vscode color for multi code app, useful when open multi repo.|
+|`CoenraadS.bracket-pair-colorizer`|![](https://raw.githubusercontent.com/CoenraadS/BracketPair/master/images/activeScopeBorder.png) colorize brackets |
+|`PKief.material-icon-theme`|icon-theme for folder, more readable.|
+|`eamodio.gitlens`|useful git viewer. ![](https://raw.githubusercontent.com/eamodio/vscode-gitlens/master/images/docs/gitlens-preview.gif)|
+
+## VS CODE keyboard for
+
+There is some keyboard setting for quick typing
+|Name|Feature|
+|---|---|
+|`workbench.action.files.saveAll`|save all file once|
+|`workbench.action.terminal.toggleTerminal`|toggle terminal|
+|`editor.action.formatDocument`|format document structure|
+|`workbench.action.navigateBack`|go to previous cursor pointer|
+|`workbench.action.navigateForward`|go to next cursor pointer|
+|`editor.action.triggerSuggest`|reopen the intellisense with vscode suggestion|
+|`editor.action.smartSelect.expand`|select text a range once|
 
 ## Surround Tool
-Custom Surround
+Custom Surround for coding snippet
 ```json
 "surround.custom": {
     "promise": {

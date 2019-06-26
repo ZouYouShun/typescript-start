@@ -1,20 +1,23 @@
-function nomal(message: string) {
+import { Point } from "./classes";
+
+export function nomal(message: string) {
   console.log(message);
 }
 
-const variable = function (message: string) {
+export const variable = function (message: string) {
   console.log(message);
 }
 
-const arrow = (message: string) => {
+export const arrow = (message: string) => {
   console.log(message);
 }
 
-// arrow
-// variable
-// nomal
+export let drawPoint = ({ x, y }: Point) => {
+  console.log(x, y);
+}
 
-const drawPoint = (point: { x: number, y: number }) => {
-  const a = point;
-  // a.x
+export let getDistance = ({ x: x1, y: y1 }: Point, { x: x2, y: y2 }: Point) => {
+  return Math.sqrt(
+    Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2)
+  );
 }
