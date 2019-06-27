@@ -4,6 +4,8 @@
 
 [TypeScript Tutorial for Angular and React Developers | Mosh](https://www.youtube.com/watch?v=NjN00cM18Z4&list=PLTjRvDozrdlxJjrQ4phZAUmiRn-HbK3M_)
 
+[TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/)
+
 ## Agenda
 
 * Type annotations
