@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run build-w",
     "build": "tsc",
     "build-w": "tsc -w"
   },

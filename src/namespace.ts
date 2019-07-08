@@ -1,4 +1,4 @@
-namespace Life {
+export namespace Life {
   export function goHome() {
 
   }

@@ -1,3 +1,4 @@
+import { Direction } from './customEnum';
 enum Color {
   Red = 'red',
   Green = 'green',
@@ -10,5 +11,8 @@ enum Color2 {
   Blue
 }
 
-console.log(Color.Red)
-console.log(Color2.Red)
+console.log(Color.Red);
+
+console.log(Color2.Red);
+
+console.log(Direction.East);
