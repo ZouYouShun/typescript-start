@@ -15,6 +15,8 @@ export const Direction = strEnum([
 export type Direction = keyof typeof Direction;
 
 
+const value: Direction = Direction.East;
+
 console.log(Direction.East);
 console.log(Direction.South);
 console.log(Direction.East);

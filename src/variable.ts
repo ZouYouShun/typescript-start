@@ -21,6 +21,7 @@ let file: File | number;
 
 if (file instanceof File) {
   // we can using file API with the current file
+  file
 }
 // the file is not file type.
 file;
@@ -49,3 +50,10 @@ function doSomethingLet() {
 
 doSomethingVar();
 doSomethingLet();
+
+
+const abc = () => ({
+  abc: '123'
+})
+
+type abc = ReturnType<typeof abc>

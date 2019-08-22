@@ -64,6 +64,7 @@ In the extension search box typing: `@recommended` and that will show add recomm
 |`johnpapa.vscode-peacock`|![](https://raw.githubusercontent.com/johnpapa/vscode-peacock/master/resources/peacock-windows.png) Can custom vscode color for multi code app, useful when open multi repo.|
 |`CoenraadS.bracket-pair-colorizer`|![](https://raw.githubusercontent.com/CoenraadS/BracketPair/master/images/activeScopeBorder.png) colorize brackets |
 |`PKief.material-icon-theme`|icon-theme for folder, more readable.|
+|`howardzuo.vscode-favorites`|add favorites folder for find dir more quickly.|
 |`eamodio.gitlens`|useful git viewer. ![](https://raw.githubusercontent.com/eamodio/vscode-gitlens/master/images/docs/gitlens-preview.gif)|
 
 ## VS CODE keyboard for

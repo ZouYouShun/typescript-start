@@ -13,24 +13,25 @@ type ValueType = typeof data;
 
 generics<ValueType>({
   a: 1,
-  b: 2,
-})
+  b: 2
+});
 
 // example2
-export const getJSON = <T>(url: string, config?: {
-  headers?: { [key: string]: string },
-}): Promise<T> => {
-  const fetchConfig = ({
+export const getJSON = <T>(
+  url: string,
+  config?: {
+    headers?: { [key: string]: string };
+  }
+): Promise<T> => {
+  const fetchConfig = {
     method: 'GET',
-    'Accept': 'application/json',
+    Accept: 'application/json',
     'Content-Type': 'application/json',
     ...(config.headers || {})
-  });
-  return fetch(url, fetchConfig)
-    .then<T>(response => response.json());
-}
+  };
+  return fetch(url, fetchConfig).then<T>(response => response.json());
+};
 
 getJSON<ExampleModel>('./assets/example.json').then(x => {
-  console.log(x.array);
-})
-
+  console.log(x);
+});
