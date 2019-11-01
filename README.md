@@ -6,6 +6,8 @@
 
 [TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/)
 
+[TypeScript Book Chinese](https://jkchao.github.io/typescript-book-chinese/#why)
+
 ## Agenda
 
 * Type annotations
