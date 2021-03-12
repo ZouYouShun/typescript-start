@@ -1,5 +1,7 @@
 # Typescript Start
 
+[Typescript Doc](https://www.typescriptlang.org/docs/)
+
 [Document is here](https://docs.google.com/presentation/d/1bp23x6g_Q8hSs9rAiKCpGRw1BnMnHFvkSjlx9KahufY)
 
 [TypeScript Course for Beginners 2021 - Learn TypeScript from Scratch!](https://youtu.be/BwuLxPH8IDs)
@@ -9,6 +11,8 @@
 [TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/)
 
 [TypeScript Book Chinese](https://jkchao.github.io/typescript-book-chinese/#why)
+
+[Type search](https://www.typescriptlang.org/dt/search?search=)
 
 ## Agenda
 
