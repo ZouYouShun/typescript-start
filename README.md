@@ -2,6 +2,8 @@
 
 [Document is here](https://docs.google.com/presentation/d/1bp23x6g_Q8hSs9rAiKCpGRw1BnMnHFvkSjlx9KahufY)
 
+[TypeScript Course for Beginners 2021 - Learn TypeScript from Scratch!](https://youtu.be/BwuLxPH8IDs)
+
 [TypeScript Tutorial for Angular and React Developers | Mosh](https://www.youtube.com/watch?v=NjN00cM18Z4&list=PLTjRvDozrdlxJjrQ4phZAUmiRn-HbK3M_)
 
 [TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/)
